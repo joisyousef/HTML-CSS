@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keyword" content="ecommerce,clothes">
+    <meta name="author" content="John Doe">
+    <title>css intro</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/icons/icon@2x.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/print.css" media="print">
+    <!-- <style media="print">
+        .media-parent .media-child {
+            font-size: 40px;
+        }
+    </style> -->
+    <!-- <style>
+        .myText {
+            background-color: red;
+        }
+
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+
+        .text-info {
+            background-color: #1ea44d;
+            color: #333;
+        }
+
+        #text-success {
+            background-color: red;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- <form action="">
+    <label for="username">username</label>
+    <input type="text" name="username" id="username">
+    <button>submit</button>
+</form> -->
+
+    <!-- starting naming convention  section -->
+    <!-- <p class="testParagraph">this is p camel Case  testParagraph</p>
+     <p class="test_paragraph">this is p snake case test_paragraph</p>
+     <p class="test-paragraph-test">this is p Kabab Case test-paragraph-test</p>
+     <p class="TestParagraphTest">this is p pascal case TestParagraphTest</p>
+     <p class="TEST_PARAGRAPH">this is p upper snake case TEST_PARAGRAPH</p> -->
+    <!-- end naming convention  section -->
+
+    <!-- starting backgrounds [images - color] section -->
+    <!-- <div class="banner-section">
+        <p>welcome to css</p>
+        <p>welcome to css</p>
+        <p>welcome to css</p>
+        <p>welcome to css</p> 
+        <p>welcome to css</p>
+    </div> -->
+    <!-- end  backgrounds [images - color] section -->
+
+    <!-- starting  padding & margins  section -->
+    <!-- 
+    <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+        padding of 80px.</div> 
+     <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+            padding of 80px.</div>  -->
+
+    <!-- end  padding & margins  section -->
+
+
+    <!-- starting  borders & outlines section -->
+    <!-- <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+        padding of 80px.</div>  -->
+    <!-- end   borders & outlines section -->
+
+
+    <!-- starting  display section -->
+    <!-- <div class="test-sec">this first Div</div>
+    <div class="test-sec">this second Div</div>
+    <div class="test-sec-three">this third Div</div>
+    <div class="test-sec">this third Div</div> -->
+    <!-- 
+    <span class="test-span">this first span</span>
+    <span class="test-span">this second span</span>
+    <span class="test-span">this third span</span> -->
+
+    <!-- end  display section -->
+
+
+    <!-- starting  visibility section -->
+    <!-- <div class="visibility-sec">First</div> -->
+    <!-- end visibility  section -->
+
+    <!-- starting  multi selectors section -->
+    <!-- <div class="sec-one">One</div>
+    <div id="parent" class="sec-one ">
+        <div class="different-font">
+            <div class="child-three">
+                <div class="child-four">two</div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-one">Three</div> -->
+    <!-- end   multi selectors section -->
+
+    <!-- starting  nesting  section -->
+    <!-- <div class="nesting-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+    </div> -->
+    <!-- end  nesting section -->
+
+    <!-- starting width and dimensions section -->
+    <!-- <div class="dimension-sec">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end   section -->
+
+    <!-- starting overflow  section -->
+    <!-- <div class="overflow-sec">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end overflow  section -->
+
+    <!-- starting  shadow section -->
+    <!-- <div class="shadow-sec  color-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end shadow  section -->
+
+    <!-- starting  text spaces section -->
+    <!-- <div class="text-spaces-sec">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Inventore sit molestiae, corrupti at quae debitis dicta
+            adipisci unde, nemo, veritatis error. Cupiditate,
+            deserunt maiores assumenda ut quod voluptate adipisci repellat.
+        </div> -->
+    <!-- end text spaces  section -->
+
+    <!-- starting inheritance-sec section -->
+    <!-- <div class="inheritance-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <span>span Inside Div</span>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+    </div> -->
+    <!-- end inheritance-sec section -->
+
+    <!-- <div class="typographic-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+        <a href="#">contact-me</a>
+    </div> -->
+
+    <!-- ---------------------------------------------------------------------->
+
+    <!-- starting  floating & clear section -->
+
+    <!-- <div class="blogs">
+        <div class="article">
+            services
+            <ul>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+            </ul>
+        </div>
+        <div class="article">
+            article 2
+        </div>
+        <div class="article">
+            article 3
+        </div>
+        <div class="article">
+            article 4
+        </div>
+        <div class="clear"></div>
+    </div> -->
+
+    <!--  <p>testing paragrapth</p> -->
+
+    <!-- end   floating & clear section -->
+
+    <!-- starting  position section -->
+
+    <!-- static & relative -->
+    <!-- <div class="element-one">
+        product 1
+    </div>
+    <div class="element-two">
+        product 2
+    </div> -->
+    <!-- <div class="first-parent">
+
+    </div> -->
+    <!-- absolute  -->
+    <!-- <div class="main-wrapper">
+        <div class="parent-sec">
+            <div class="product-one">
+                product 1
+            </div>
+        </div>
+    </div> -->
+
+    <!-- fixed -->
+    <!-- <div class="element-fixed">
+        product 1
+    </div> -->
+
+    <!-- sticky -->
+    <!-- <div class="banner-sec">
+       <img src="./assets/images/GettyImages-1264981227_2x.webp" alt="">
+    </div>
+    <div class="element-sticky">
+        product 1
+    </div>
+    <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p> -->
+    <!-- end  position section -->
+
+    <!-- starting  z-index section -->
+    <!-- <div class="section-one">One</div>
+    <div class="section-two">Two</div>
+     <div class="section-three">three</div>  -->
+    <!-- <div class="section-three"><img src="./assets/images/icons/icon@2x.jpg" alt=""></div> -->
+    <!-- end    z-index  section -->
+
+    <!-- starting  opacity section -->
+    <!-- <div class="sec-opacity">One</div>
+    <div class="sec-opacity-two">Two</div> -->
+    <!-- end    opacity  section -->
+
+    <!-- starting Pseudo Classes section -->
+    <!-- <a href="https://www.facebook.com/" class="menu-url">click Me</a>
+        <br />
+        <br />
+        <input type="checkbox" name="accept-terms" class="accept-terms">
+        <label for="accept-terms">Accept Terms</label>
+        <br />
+        <br />
+        <p class="empty-paragraph"></p>
+        <div class="empty-paragraph"></div>
+        <br />
+        <br />
+        <label for="user-name">user name</label>
+        <input type="text" class="user-name" placeholder="user name">
+        <br />
+        <br />
+        <div></div> -->
+    <!-- end Pseudo Classes  section -->
+
+
+    <!-- starting Pseudo elements section -->
+    <!-- <div class="about-us">
+        Hello Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div>
+    <hr />
+    <div class="more-info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div>  -->
+    <!-- end Pseudo elements section -->
+
+    <!-- starting Pseudo elements before&after&content section -->
+    <!-- <div class="element-info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div> -->
+    <!-- end Pseudo elements before&after&content section -->
+
+    <!-- starting  Lists Styling  section -->
+    <!-- <ul class="lists-style">
+          <li><a href="#">Home</a></li>   
+          <li><a href="#">Service</a></li>   
+          <li><a href="#">Projects</a></li>   
+          <li><a href="#">About Us</a></li>   
+          <li><a href="#">Contact Us</a></li>   
+        </ul> -->
+    <!-- end  Lists Styling section -->
+
+    <!-- starting  table styling section -->
+    <!-- <table class="section-table">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <!-- end  table styling section -->
+
+    <!-- starting  css units section -->
+    <!-- <div class="units-sec">
+        <div class="child-one">child one <span>this is span</span></div>
+    </div> -->
+    <!-- end  css units section -->
+
+    <!-- starting  css units section -->
+    <!-- <div class="variables-sec">
+        <div class="child-one">child one</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eos ea, dolorum dolore illo perferendis
+            cupiditate totam cumque aspernatur ipsum temporibus natus optio quisquam ab fugit quo suscipit fugiat?
+            Nostrum.
+        </p>
+        <div class="child-two">
+            child two <span>this is span</span>
+        </div>
+    </div> -->
+    <!-- end  css units section -->
+
+    <!-- starting  box-modal section -->
+    <!-- <div class="parent-box">
+        <div class="child-one">child one</div>
+        <div class="child-two">child two</div>
+    </div> -->
+    <!-- end  box-modal section -->
+
+    <!-- starting flex-box  section -->
+    <div class="flex-parent">
+        <div class="flex-child one">1</div>
+        <div class="flex-child two">2</div>
+        <div class="flex-child three">3</div>
+        <div class="flex-child four">4</div>
+        <div class="flex-child">5</div>
+    </div>
+    <!-- end  flex-box section -->
+
+    <!-- starting  grid section -->
+    <!-- <div class="grid-parent">
+        <div class="grid-child one">1</div>
+        <div class="grid-child two">2</div>
+        <div class="grid-child three">3</div>
+        <div class="grid-child four">4</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child five">5</div>
+    </div> -->
+    <!-- end grid  section -->
+
+    <!-- starting  media-query section -->
+    <!-- <div class="media-parent">
+        <div class="media-child one">1</div>
+        <div class="media-child two">2</div>
+        <div class="media-child three">3</div>
+    </div> -->
+    <!-- end  media-query section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+
+
+</body>
+
+</html>
