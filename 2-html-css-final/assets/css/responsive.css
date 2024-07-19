@@ -1,0 +1,37 @@
+
+/* mobile screen */
+@media (max-width: 767px) {
+  /* .media-parent .media-child {
+    background-color: yellow;
+  } */
+
+  .media-parent {
+    flex-direction: column;
+  }
+  .media-parent .media-child {
+    width: 100%;
+  }
+}
+
+/* small screen  768px to 991px*/
+@media (min-width: 768px) {
+  /* .media-parent .media-child {
+    background-color: green;
+  } */
+}
+
+/* medium screen 992px to 1199px*/
+@media (min-width: 992px) {
+  /* .media-parent .media-child {
+    background-color: blue;
+  } */
+  
+}
+
+/* large screen for 1200px upto ....*/
+@media (min-width: 1200px) {
+  /* .media-parent .media-child {
+    background-color: purple;
+  } */
+  
+}

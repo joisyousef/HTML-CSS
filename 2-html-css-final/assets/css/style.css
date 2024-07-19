@@ -1,0 +1,1731 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* :root { 
+  --bg-red: red;
+  --padding-sections: 50px 0px;
+  --dark-color: #000;
+} */
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* html,
+body {
+  padding: 0px;
+  margin: 0px;
+} */
+/* body {
+ background-color: var(--bg-red);
+} */
+.test {
+  background-color: red;
+}
+.paragraph-test {
+  background-color: green;
+}
+.header {
+}
+.content {
+}
+.footer {
+}
+.banner-section {
+  /* background-color: rgb(21 152 239 / 69%); */
+
+  /* background-image: url(../images/portfolio-1.png);
+  min-height: 400px;
+  background-repeat: no-repeat;  */
+  /* // repeat no-repeat repeat-x repeat-y */
+
+  /* background-image: url('../images/portfolio-3.png');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* scroll fixed */
+  /* background-color: red;
+  background-image: url('../images/portfolio-3.png');
+     height: 2000px;
+     width: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;   */
+
+  /* background-image: url('../images/portfolio-3.png');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 200px 100px; */
+
+  /*
+    background-image: url('../images/GettyImages-1264981227@2x.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover; *auto - cover - contain "" 
+    */
+
+  /* background-image: url('../images/GettyImages-1264981227@2x.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto;  */
+
+  /* background-image: url('../images/GettyImages-1264981227@2x.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: 300px 500px; */
+}
+/***************************************/
+.our-story {
+  background-color: lightblue;
+  width: 500px;
+  /* padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px; */
+
+  /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+
+  /* border-width: 5px;
+    border-color: red;  
+    border-style: solid; 
+    */
+
+  /* border: 10px solid black; */
+  /* outline: #4CAF50 solid 10px; */
+}
+/***************************************/
+/*
+block div: 
+ - take full width
+ - adding break lines
+ - make padding and margin - width - height
+
+inline div: 
+- didn't adding break lines
+- didn't take width and height
+- didn't take padding top
+- only add and margin [left - right]
+
+inline-block div: 
+ - make padding and margin - width - height
+
+*/
+
+/* .test-sec {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+
+}  */
+
+/* .test-span {
+  background-color: red;
+   width: 100px;
+    height: 200px;
+   padding: 20px;
+} */
+/* .test-sec-three{
+  background-color: red;
+  width: 100px;
+   height: 200px;
+   display: none; 
+   visibility: hidden;
+} */
+
+/***************************************/
+/* .visibility-sec {
+    background-color: red;
+    margin: 10px 0;
+    visibility: hidden;
+} */
+/***************************************/
+.sec-one {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  margin: 12px 0;
+  color: #fff;
+}
+
+.sec-one {
+  background-color: red;
+}
+.sec-one .different-font {
+  font-size: 40px;
+}
+
+#parent .different-font .child-three .child-four {
+  color: blue;
+}
+/***************************************/
+/* .nesting-sec h2 {
+  background-color: green;
+  color: red;
+  padding: 20px 45px;
+}
+.nesting-sec .special {
+  color: yellow;
+} */
+/****************width & min-width & max-width & height & min-height  & auto***********************/
+.dimension-sec {
+  background-color: red;
+  padding: 10px;
+  /* display: inline-block;
+  max-width: 500px;
+  max-width: 400px;
+  width: 500px;
+  min-height: 300px; */
+}
+
+/***************overflow************************/
+/* .overflow-sec {
+  width: 500px;
+  height: 250px;
+  background-color: #EEE;
+  margin: 20px auto;
+  border-radius: 6px;
+  overflow: scroll;
+}  */
+/****************text-shadow & text colors & shadows & decorations***********************/
+.shadow-sec {
+  background-color: #eee;
+  color: red !important;
+  text-shadow: 2px 0px 4px green;
+  text-decoration: underline;
+  box-shadow: 2px 0px 4px #e4e4e4;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-blue {
+  color: blue;
+}
+/***************************************/
+
+/*****************
+- spaces
+- inheritance
+- font & typographic
+- cursors
+**********************/
+/* .text-spaces-sec {
+  background-color: #f9f9f9;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+} */
+
+/* .inheritance-sec p{
+  color: green;
+} */
+
+/* .typographic-sec {
+  font-family: "Rubik", sans-serif , Times, serif;
+  background-color: #EEE;
+  padding: 10px;
+}
+.typographic-sec h2:hover{
+  cursor: pointer;
+} */
+/****************floating & clear***********************/
+.blogs {
+  background-color: green;
+  padding: 10px;
+  /* overflow: hidden; */
+  /* height: 100px; */
+}
+.blogs .article {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: red;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 25%;
+  float: left;
+  height: 35px;
+  box-sizing: border-box;
+}
+.blogs .article a {
+  color: red;
+}
+.clear {
+  clear: both;
+}
+/* 
+.blogs .article {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  width: 25%;
+  display: inline-block;
+  float: left;
+}
+*/
+.clear {
+  clear: both;
+}
+
+/****************** position *********************/
+/* to make this make height with 4000px for the body */
+.element-one,
+.element-two {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+}
+
+.element-one {
+  background-color: green;
+  /* margin-top: 200px; */
+
+  /* position: static;
+  top: 200px; */
+
+  /* position: relative;
+  top: 100px; */
+
+  /* position: absolute;  */
+  /* left: 20px; */
+}
+.element-two {
+  background-color: blue;
+}
+
+.main-wrapper {
+  width: 600px;
+  height: 400px;
+  background-color: purple;
+  position: relative;
+}
+.parent-sec {
+  width: 500px;
+  height: 350px;
+  background-color: red;
+
+  /* position: relative; */
+}
+.product-one {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  background-color: green;
+}
+
+.element-fixed {
+  position: fixed;
+  width: 100px;
+  height: 200px;
+  background-color: darkorchid;
+  bottom: 0px;
+  right: 0px;
+}
+
+.banner-sec {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(21, 46, 239);
+  color: #fff;
+}
+.banner-sec img {
+  height: 248px;
+}
+.element-sticky {
+  position: sticky;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(115, 239, 21);
+  color: #333;
+  top: 0px;
+}
+/******************* z-index ********************/
+.section-one,
+.section-two,
+.section-three {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  padding: 10px;
+  /* position: absolute; */
+  text-align: center;
+}
+.section-one {
+  background-color: red;
+  /* top: 25px;
+  left: 50px;
+  z-index: 3; */
+}
+.section-two {
+  background-color: green;
+  /* top: 10px;
+  left: 30px; */
+}
+.section-three {
+  background-color: blue;
+}
+/******************* opacity ********************/
+.sec-opacity {
+  background-color: red;
+  color: #333;
+  margin-bottom: 20px;
+  /* opacity: 0.1; */
+}
+.sec-opacity-two {
+  background-color: rgb(255 0 0);
+  /* background-color: rgb(255 0 0 / 0.1); */
+}
+/******************* Lists Styling ********************/
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 3px #e4e4e4;
+  padding: 0px 35px;
+}
+.site-header .site-logo img {
+  max-width: 120px;
+}
+.lists-style {
+  list-style: none;
+  padding: 0px;
+  margin: 30px;
+  background-color: #eee;
+  display: inline-flex;
+  width: 800px;
+  justify-content: space-between;
+  padding: 10px;
+   border-radius: 20px;
+}
+.lists-style li {
+  background-color: red;
+  list-style-position: inside;
+}
+
+/* .lists-style li {
+  background-color: red;
+  list-style-image: url(../images/icons/icon@2x.jpg);
+} */
+
+.lists-style li {
+  background-color: #c2bebe;
+  padding: 10px;
+  margin-right: 1px;
+  width: calc(800px / 5);
+  text-align: center;
+}
+.lists-style li:hover {
+  background-color: #939090;
+}
+.lists-style li:hover a {
+  color: #fff;
+}
+.lists-style li a {
+  color: #464646;
+  text-decoration: none;
+}
+/******************* table style ********************/
+
+.section-table {
+  width: 100%;
+  border: 1px solid #8e8a8a;
+  margin: 30px 0px;
+  /* border-spacing: 1; */
+}
+.section-table td {
+  padding: 15px;
+  background-color: #eee;
+  border: 1px solid #e10000;
+}
+
+.section-table thead td {
+  background-color: #f44336;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+/******************* css units ********************/
+/* default font-size for page is 16px*/
+/* 
+- px 
+-em : time 
+-rem : root element 
+-vw: viewport width (good for responsive)
+-% : percentage  from the parent element
+*/
+.units-sec .child-one {
+  background-color: red;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+}
+
+/* .units-sec .child-one span {
+  font-size: 2em;
+} */
+
+/* html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 50px;
+}
+
+.units-sec .child-one span {
+  font-size: 2rem;
+} */
+
+.units-sec .child-one span {
+  font-size: 100%;
+} 
+
+/* resize the browser */
+
+/* .units-sec .child-one {
+  font-size: 3vw;
+} */
+/******************* variables ********************/
+/* global & local variables & fullback */
+
+:root {
+  --mainBackground: #eee;
+  --paddingSections: 50px;
+  --fontSizing: 17px;
+  --greenBk: green;
+  --yellowBk: yellow;
+  --blueBk: blue;
+  --redBk: red;
+  --darkBlue : rgb(13, 13, 142);
+  --boxShadow: 10px 10px 10px #424040;
+}
+
+
+.variables-sec {
+  padding: var(--paddingSections);
+  background-color: var(--mainBackground, purple);
+  box-shadow: var(--boxShadow)
+}
+
+.variables-sec .child-one {
+  background-color: var(--redBk);
+  font-size: 20px;
+  padding: var(--paddingSections);
+}
+
+.variables-sec p {
+  background-color: green;
+  font-size: 17px;
+  padding: var(--paddingSections);
+}
+.variables-sec .child-two {
+  background-color: yellow;
+  font-size: 17px;
+  /* padding: calc(10px + var(--paddingSections)); */
+}
+.variables-sec .child-two span {
+  color: var(--darkBlue);
+  font-size: 17px;
+  padding: var(--paddingSections);
+
+  /* --mainBackground: red;
+  background-color: var( --mainBackground); */
+}
+
+/******************* filters  ********************/
+.filters-sec img {
+  width: 50%;
+  /* filter: grayscale(100%); */
+  /* filter: blur(4px); */
+  /* filter: invert(1); */
+}
+.filters-sec img:hover {
+  /* filter: grayscale(0); */
+  /* filter: blur(0px); */
+  /* filter: invert(0); */
+}
+.gradient-sec {
+  width: 600px;
+  height: 250px;
+  /* background-image: linear-gradient( to right , red, green); */
+  
+  background: linear-gradient(to bottom,  #ffffff 2%,#ffffff 2%,#66b6fc 100%);
+
+  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+/* background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%);   */
+  /* background-image: linear-gradient(200deg , red, green); */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+/* background: radial-gradient(ellipse at center,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+ */
+
+  /* background: rgb(4,83,11);
+background: linear-gradient(90deg, rgba(4,83,11,1) 0%, rgba(49,121,9,1) 35%, rgba(0,255,175,1) 100%); */
+
+  /* background: rgb(4,83,11);
+background: radial-gradient(circle, rgba(4,83,11,1) 0%, rgba(49,121,9,1) 35%, rgba(0,255,175,1) 100%); */
+}
+/* .gradient-sec {
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+  position: relative;
+  padding: 10px;
+}
+.gradient-sec:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #2980b9 20%,
+    #27ae60 20%,
+    #27ae60 40%,
+    #d35400 40%,
+    #d35400 60%,
+    #8e44ad 60%,
+    #8e44ad 80%,
+    #c0392b 80%
+  );
+} */
+/******************* Pseudo Classes : ********************/
+.menu-url {
+  color: red;
+  text-decoration: none;
+}
+
+.menu-url:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.menu-url:visited {
+  color: blue;
+}
+
+.accept-terms:checked + div {
+  color: blue;
+  display: none;
+}
+
+.empty-paragraph:empty {
+  width: 200px;
+  height: 50px;
+  background-color: darkorchid;
+}
+
+.user-name {
+  border: 5px solid green;
+}
+
+.user-name:focus {
+  border: 5px solid red;
+  /* outline: none; */
+}
+.disabled-btn:disabled {
+  border: 5px solid red;
+}
+/******************* Pseudo element :: *************** :: *****/
+/* .about-us::first-letter {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+ .more-info::first-line {
+  font-weight: bold;
+  color: yellow;
+  background-color: green;
+}
+
+.about-us::selection {
+  background-color: red;
+  color: #333;
+}   */
+
+.element-info {
+  background-color: #c9c9c9;
+  padding: 10px;
+  width: 500px;
+  position: relative;
+  float: left;
+  margin: 50px;
+}
+.element-info::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  right: -5px;
+  top: 0px;
+  background-color: red;
+}
+
+.element-info::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  left: -25px;
+  top: 68%;
+  margin-top: -30px;
+  border-width: 13px;
+  border-style: solid;
+  border-color: transparent green transparent transparent;
+
+  /* content: "";
+    position: absolute;
+    background-color: #ffff;
+    width: 70px;
+    height: 70px;
+    left: -36px;
+    top: 44%;
+    margin-top: -30px;
+    border-radius: 50%; */
+}
+
+/* .element-info::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  left: -20px;
+  top: 70%;
+  margin-top: -30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent green transparent transparent;
+} */
+/*****************box -modal********************/
+.parent-box {
+  background-color: #eee;
+  width: 600px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.parent-box .child-one,
+.parent-box .child-two {
+  background-color: red;
+  width: 50%;
+  float: left;
+  padding: 10px;
+  border: 10px solid #333;
+  box-sizing: content-box;
+  height: 50px;
+
+  /* box-sizing: border-box; */
+}
+
+/***************** flex-box **********************/
+
+/* float (try to make html {direction: rtl;} ) */
+
+/* 
+default values for properties for parent selector : 
+  -display: flex; 
+  -flex-direction: row, row-reverse, column, column-reverse;
+  -flex-wrap: nowrap, wrap, wrap-reverse ;
+  -flex-flow: row  wrap;
+  -justify-content: flex-start, flex-end;
+  -align-items: stretch, flex-start, flex-end;
+  - align-items: stretch, flex-end, flex-end;
+default values for properties for child selector : 
+  - flex-grow:0;
+  - flex-shrink:1;
+  - order: 0;
+  - flex-basis: auto;
+
+default values for flex: [flex grow 0, flex shrink 1, flex basic auto]
+*/
+/* flex (try to make html {direction: rtl;} ) */
+.flex-parent {
+  background-color: #eee;
+  width: 500px;
+  padding: 10px;
+  margin: 20px auto;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row  wrap; */
+
+  /* uncomment div 5 in html */
+  /* justify-content: center; */
+
+  /* make calc width for child with 100px */
+  /* flex-wrap: nowrap;
+  justify-content: space-between; */
+
+  /* flex-wrap: nowrap;
+  justify-content: space-around; */
+
+  /* flex-wrap: nowrap;
+  justify-content: space-evenly; */
+
+  /* align-items: center;
+  height: 300px; */
+  /* 
+  height: 400px;
+  flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  /* align-content: flex-start; */
+
+  /* flex-direction: column; */
+}
+
+.flex-parent .flex-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: calc(100% / 5);
+  height: 50px;
+  padding: 10px;
+  /* margin-right: 2px; */
+}
+
+/* align items*/
+/* .flex-parent .flex-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+  height: 50px;
+} */
+
+/* align-content */
+/* .flex-parent .flex-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+  height: 50px;
+}  */
+
+/* Grow, Shrink, Order */
+/* .flex-parent .flex-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  margin-right: 10px;
+  height: 50px;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+} */
+
+.flex-parent .flex-child.two {
+  /* background-color: green !important; */
+  /* flex-grow: 3; */
+}
+
+/* remove  flex-grow: 1; from the  .flex-child  to test shrink*/
+/* .flex-parent .flex-child.two{
+  background-color: blue  !important;
+  flex-shrink: 3 !important;
+}   */
+
+/* .flex-parent .flex-child.two{
+  background-color: blue !important;
+  order: 1;
+}   */
+
+/* Flex Basis, Flex Shorthand */
+.flex-parent .flex-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+/* flex-basis: */
+/* flex-basis: respect the max-width */
+/* make the flex-direction: column;  to the parent*/
+.flex-parent .flex-child.two {
+  background-color: blue;
+  width: 200px;
+  flex-basis: 200px;
+}
+
+/* .flex-parent {
+  display: inline-flex;
+} */
+
+/* .flex-parent {
+  height: 300px;
+} */
+/* remove the hight from .flex-parent .flex-child 
+OR: 
+give .flex-parent .flex-child.two: height: auto;
+*/
+.flex-parent .flex-child.two {
+  /* background-color: blue; */
+  /* align-self: stretch; */
+  /* height: auto; */
+}
+
+/***************** grid **********************/
+/* 
+default values for properties for parent selector : 
+  - display: grid || inline-grid; 
+  - grid-template-columns: is the number of columns with [px, %, auto, repeat, or mix between all of them, fr]
+  - grid-template-row: is the number of columns with [px, %, auto, repeat, or mix between all of them, fr]
+  
+default values for properties for child selector : 
+ */
+
+.grid-parent {
+  /* background-color: #eee;
+  width: 1200px;
+  padding: 10px;
+  margin: 20px auto;
+  display: grid; */
+
+  /* grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; */
+
+  /* grid-template-columns: repeat(12, auto); */
+
+  /* grid-template-columns: repeat(4, 1fr); */
+
+  /* grid-template-columns: 10% 50% auto; */
+
+  /* grid-template-columns: 50px 10% auto repeat(2, 1fr); */
+  /* grid-template-columns:  auto auto auto auto auto auto auto auto auto auto auto auto; */
+  /* grid-template-columns: 10% auto 3fr 1fr; */
+  /* try : grid-template-columns: auto auto 1fr 1fr; */
+/* 
+  grid-template-columns: repeat(4, auto); */
+  /* grid-template-rows: auto auto auto auto; */
+  /* grid-template-rows: 120px 50px auto;  */
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  /* gap: 10px 10px; */
+}
+
+.grid-parent .grid-child {
+  /* background-color: red;
+  color: #fff;
+  text-align: center; */
+  /* padding: 10px;  */
+  /* height: 50px; */
+}
+/* .grid-parent .grid-child.one {
+  background-color: red;
+}
+.grid-parent .grid-child.two {
+  background-color: green;
+}
+.grid-parent .grid-child.three {
+  background-color: blue;
+}
+.grid-parent .grid-child.four {
+  background-color: yellow;
+}
+.grid-parent .grid-child.five {
+  background-color: purple;
+} */
+
+/*Justify Content And Align Content*/
+/* .grid-parent {
+  background-color: #eee;
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);  
+  grid-template-rows: repeat(3, auto);  
+  gap: 10px 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.grid-parent .grid-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+} */
+/* ********** */
+.main-wrapper {
+  background-color: #eee;
+  height: 100vh;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-rows: 20% auto 10%;
+
+  grid-template-areas:
+    "logo logo logo logo nav nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont cont cont cont side side side"
+    "foot foot foot foot foot foot foot foot foot foot foot foot";  
+}
+
+.logo {
+  grid-area: logo;
+  background-color: red;
+  color: #fff;
+}
+
+nav {
+  grid-area: nav;
+  background-color: green;
+  color: #fff;
+}
+ 
+.content {
+  grid-area: cont;
+  background-color: yellow;
+  color: white;
+}
+
+.article {
+  grid-area: side;
+  background-color: blue;
+  color: white;
+}
+
+.footer {
+  grid-area: foot;
+  background-color: black;
+  color: white;
+}  
+
+
+@media (max-width: 992px) {
+  .main-wrapper {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "logo logo logo logo logo logo logo logo logo logo logo logo"
+      "nav nav nav nav nav nav nav nav nav nav nav nav"
+      "cont cont cont cont cont cont cont cont cont cont cont cont"
+      "side side side side side side side side side side side side"
+      "foot foot foot foot foot foot foot foot foot foot foot foot";
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "logo"
+      "nav"
+      "cont"
+      "side"
+      "foot";
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+/* ********** */
+.grid-sec {
+  /* background-color: #eee;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns:repeat( 4, 1fr);
+  gap: 10px 10px; */
+
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #737272;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px 10px;
+}
+.grid-sec div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.grid-sec div.one {
+  /* background-color: green !important; */
+  /*grid-column: 1/4;     /*like i'm said : start form 1  : n-1  =>> 1 : 3  */
+  /*grid-column: span 4;*/ /*like i'm said : start form 1  : 4  =>> 1 : 4  */
+  /* grid-column: 3 / span 3; */
+
+  /*grid-row: 1 / 3;  /*like i'm said : start form 1  : n-1  =>> 1 : 3  */
+  /* grid-row: span 3;   */
+}
+
+/* uncomment style at .grid-sec : grid-template-columns: repeat(6, 1fr);  grid-template-rows: repeat(3, auto); */
+.sec-nine {
+  /* background-color: blue !important; */
+   /* grid-row-start: 1;
+   grid-column-start: 2; */
+
+  /* grid-row-end: 4;
+  grid-column-end: 6; */
+
+  /* grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 6; */
+  /* grid-area: 2 / 2 / 5 / 6; */
+}
+
+.grid-responsive {
+  margin: 20px auto;
+  height: 500px;
+  background-color: #ddd;
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: auto repeat(2, 1fr); */
+
+  /* check this link : https://developer.mozilla.org/en-US/docs/Web/CSS/minmax */
+  /* grid-template-columns: minmax(200px , 350px) repeat(2, 1fr);  */
+  /* grid-template-columns: minmax(200px , 400px) repeat(2, 1fr);  */ /*  try repeat(2, 500px) */
+
+  /* grid-template-columns:  repeat(7, 200px); */
+  /* grid-template-columns:  repeat(auto-fill, 200px); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.grid-responsive div {
+  background-color: red;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+/***************** css selectors **********************/
+/* 
+  - elements [div , p , h1]
+  - element inside div like p
+  - #id-selector
+  - .class-selector
+  - .parent .child : any child
+  - .parent > .child : direct child
+
+  - .class-one-selector.class-two-selector
+  - .class-selector div =>>>>> means get all div inside class-selector
+  - .class-selector div , .class-selector p  =>>>>> means get all div and p inside class-selector
+  - element.class-selector  =>>>>> means only p with this class-selector will apply this changes
+
+  - div + p  =>>>>> means the next selector to div is must be p 
+  - p ~ div =>>>>> means  is a sibling combinator selector الأشقاء ليه في نفس الاب علي نفس مستواه 
+  - [attribute],  also you can make it with value [attribute = value] 
+  - element[attribute],   also you can make it with value element[attribute = value] 
+  - [attribute~= value]  contains a word
+  - [attribute*= value]  contains a string
+  - [attribute^= value]  start a string
+
+*/
+/* [title] {
+  background-color: red;
+} */
+/* [title ^= "sec"] {
+  background-color: red;
+} */
+/* p ~ div {
+  background-color: yellow;
+ } */
+/* div {
+  background-color: green;
+} */
+/* 
+div p {
+  color: red;
+} */
+
+
+/* #heading {
+  color: red;
+} */
+
+/* .sub-head{
+  color: red;
+}
+.colorized {
+  font-size: 30px;
+} */
+/* .about-us p{
+  color: red;
+} */
+
+/* .parent-div p {
+  color: red;
+}
+
+.parent-div > p {
+  color: green;
+}  */
+
+/* .parent-div .sub-head.colorized {
+  background-color: #27ae60;
+} */
+
+/* .parent-div div{
+  color: red;
+} */
+/* 
+.parent-div div, .parent-div p {
+  color: red;
+}
+p.parent-div {
+  color: blue;
+}
+
+.parent-div.info {
+  color: blue;
+}
+
+.parent-div .info {
+  color: purple;
+}
+.parent-div .child-elemnt.second-elem{
+  background-color: yellow;
+} */
+
+/* div + p {
+  background-color: #27ae60;
+} */
+
+ /* p ~ div {
+  font-size: 40px;
+  background-color: aqua;
+} */
+
+/* [title] {
+  background-color: purple;
+  color: #fff;
+} */
+
+/* div[title] {
+  background-color: yellow;
+  color: #333;
+} */
+
+/* div[title ="sec"] {
+  font-style: italic;
+  background-color: yellow;
+}  */
+
+/* [title~="sec"] {
+  font-weight: bold;
+  background-color: yellow;
+} */
+
+/* [title^="sec"] {
+  font-weight: bold;
+  background-color: purple;
+}  */
+
+/* [title*="sec"] {
+  font-weight: bold;
+  font-size: 40px;
+} */
+/* input[value="username"] {
+  border: 2px solid #27ae60;
+} */
+
+/* example */
+/* 
+
+[title~="sec"] {
+  font-weight: bold;
+}
+
+[title*="sec"] {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+[title^="sec"] {
+  font-weight: bold;
+} 
+
+div + p {
+  background-color: green;
+} */
+/*+++++++++++++++++++++++++++++++++++++*/
+/* 
+:first-child :  get the first child of p
+:last-child :  get the last child of p
+
+:first-of-type : means الأول من نوعه داخل السليكتور 
+:last-of-type : means الأخير من نوعه داخل السليكتور 
+:only-child : means is the only child of the the parent
+:only-of-type : means  الوحيد من نوعه
+*/
+
+/* p:first-child {
+  color: red;
+}
+  
+p:last-child {
+  color: blue;
+}   */
+
+/* .parent-selector p:first-child {
+  color: red;
+} */
+/* 
+.parent-selector p:last-child {
+  color: blue;
+} */
+
+
+/* p:first-of-type {
+  color: rgb(0, 255, 21);
+} */
+
+/* p:last-of-type {
+  color: rgb(32, 203, 255);
+} */
+
+
+ /* p:only-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+} */
+
+/* p:only-child {
+  color: rgb(255, 32, 32);
+} */
+
+/*+++++++++++++++++++++++++++++++++++++*/
+/* 
+:not(:first-child) :  get all paragraphs except the first
+:nth-child(2) : any child and we can use even and odd
+:nth-last-child(2) : will count from the end not the beginning
+p:nth-of-type(2): get the second element of type paragraph
+*/
+
+/* p:not(:first-child) {
+   text-decoration: underline;
+   color:blue
+} */
+
+/* p:nth-child(even) {
+  text-decoration: underline;
+  color:blue
+} */
+
+/* p:nth-last-child(2) {
+  text-decoration: underline;
+  color:blue
+} */
+
+/* p:nth-of-type(2) {
+  text-decoration: underline;
+  color:red
+} */
+
+/* p:nth-child(odd) {
+  text-decoration: underline;
+  color:blue
+} */
+/*+++++++++++++++++++++++++++++++++++++*/
+/* 
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+*/
+
+/* to test this features you can open  index-two.html */
+/***************** media-query**********************/
+.media-parent {
+  position: relative;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.media-parent .media-child {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  width: calc(100% / 3);
+  padding: 10px;
+  height: 50px;
+}
+
+/****************** Transition  *********************/
+.transition-sec {
+  width: 250px;
+  height: 150px;
+  background-color: #eee;
+  padding: 20px;
+  /* transition-duration: 1s; */ /* 1000ms*/
+
+  /* transition-duration: 1s;
+  transition-delay: 2s; */
+  /* transition-property:all ;*/ /* all -   margin-left, margin-top,width */
+
+  /* transition-duration: 1s;
+  transition-delay: .5s;
+  transition-property:width;
+  transition-timing-function: linear; */ /*ease , ease-in,ease-out,linear */
+
+  /* transition: width 2s, height 1s */
+
+  /* transition: all 2s .5s ease-in; */
+}
+.transition-sec:hover {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 300px;
+  /* height: 450px; */
+}
+/******************2D transform  *********************/
+.transform-sec-two-d {
+  width: 200px;
+  height: 350px;
+  background-color: #27ae60;
+  color: #fff;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+  transition: 0.5s;
+}
+.transform-sec-two-d:hover {
+  /* transform: scaleX(-1); */
+  /* transform: scaleX(1.5); */
+  /* transform: scale(1.5); */
+  /* transform: scaleX(-1); */ /*scale(-1,-1)*/
+
+  /* transform:rotate(45deg) */
+}
+.main-blog-box {
+  width: 450px;
+  height: 650px;
+}
+.transform-blog-box {
+  height: 500px;
+  background-color: #eee;
+  border: 15px solid #eee;
+  display: flex;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.transform-blog-box img {
+  transition: 0.5s;
+}
+/* .main-blog-box:hover img {
+   transform:scale(1.5) rotate(5deg); try: scale(1.5) rotate(5deg) 
+} */
+
+.transform-blog-box {
+  /* if we didn't add the second value it will be with 0 */
+  /* transform: translate(100px, 200px);  */
+}
+
+.transform-blog-box {
+  /* transform: skewX(10deg); */
+  /* transform: skewY(10deg); */
+
+  /* if we didn't add the second value it will be with 0 */
+  /* transform: skew(10deg,20deg); */
+}
+
+/* matrix (scaleX() , scaleY(), skewX(), skewY(), scaleX(1.5), scaleY(1.5) , translateX(), translateY() ) */
+.transform-blog-box {
+  /* transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20); */
+}
+
+/* 
+transform-origin(x,y) for the 2d transform     
+transform-origin(x,y,z) for the 3d transform
+can use for x,x and z : px,em,rem or left,right,center or %     
+
+check this link : https://codepen.io/shshaw/pen/pOVKjb
+*/
+/* .transform-origin-box {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255 0 0 / 39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  transform-origin: 0 50%;
+  transform: rotate(100deg);
+} */
+
+/***************** 3D Transform **********************/
+.transform-box-three-d {
+  /* margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px; */
+
+  /* transform: rotateX(50deg);
+  transform: rotateY(50deg);
+  transform: rotateZ(50deg); */
+
+  /* transform: rotate3d(0, 1, 1, 65deg); */
+
+  /* transition: 0.5s; */
+}
+
+/* example */
+/* .transform-box-three-d:hover {
+  transform: rotateY(90deg);
+  transform-origin: left top;
+} */
+/* .transform-box-three-d-perspective {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  perspective: 300px;
+}
+.transform-box-three-d-perspective div {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.425);
+  color: white;
+  transform: translate3d(0, 0, 100px);
+  font-size: 20px;
+} */
+
+/* example: */
+.all-products {
+  margin: 40px auto;
+  width: 200px;
+  perspective: 600px;
+}
+.product {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+}
+.product:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.product .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  backface-visibility: hidden;
+}
+.product .front {
+  background-color: red;
+}
+.product .back {
+  background-color: green;
+  transform: rotateY(180deg);
+}
+/******************* animations ********************/
+/* check this link: https://animate.style/ */
+/* .animated-sec {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes change-color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+} */
+
+/* @keyframes change-color {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+} */
+/* 
+@keyframes change-color {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: red;
+  }
+} */
+
+/* example: */
+.loader-ex {
+  width: 100px;
+  height: 100px;
+  background-color: #e8e3e3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 5px solid #e91e63;
+
+
+  
+ transition: transform 0.3s;
+  border-left-color: transparent;
+  animation-name: spin;
+ animation-duration: 1s;
+   animation-iteration-count: infinite;
+ animation-timing-function: linear;  
+ animation-direction: reverse;
+  /*animation-direction: reverse; */ /*try:  reverse , alternate ,alternate-reverse */
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* example */
+.animation-pros {
+  width: 100px;
+  height: 100px;
+  background-color: #e8e3e3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  animation-name: change-colors;
+  animation-duration: 5s;
+
+  /* animation-iteration-count: 1; */
+
+  /* animation-timing-function: linear; */
+
+  /* animation-direction: reverse; */
+
+  /* animation-delay: -2s; */
+
+  animation-fill-mode: both; /*forwards , backwards , */
+
+  /* animation-play-state: running; */
+
+  /* animation: change-colors 3s linear 2s infinite reverse; */
+}
+.animation-pros:hover {
+  animation-play-state: paused;
+}
+@keyframes change-colors {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/

@@ -1,0 +1,23 @@
+ 
+
+@media print {
+  body {
+      background-color: red;
+      color: #fff;
+      margin: 0;
+  }
+
+  #content {
+      width: 100%;
+      margin: 0;
+  }
+
+  #scroll-to-top {
+      display: none;
+      /* Hide the "Go to Top" button when printing */
+  }
+
+  a[href]:after {
+      content: " (" attr(href) ")";
+  }
+}

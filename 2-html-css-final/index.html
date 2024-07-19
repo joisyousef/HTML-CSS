@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keyword" content="ecommerce,clothes">
+    <meta name="author" content="John Doe">
+    <title>css intro</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/icons/icon@2x.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css" media="all">
+    <link rel="stylesheet" href="./assets/css/print.css" media="print">
+
+
+    <!-- <style media="print">
+        .media-parent .media-child {
+            font-size: 40px;
+        }
+    </style> -->
+    <!-- <style>
+        .myText {
+            background-color: red;
+        }
+
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+
+        .text-info {
+            background-color: #1ea44d;
+            color: #333;
+        }
+
+        #text-success {
+            background-color: red;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- <form action="">
+    <label for="username">username</label>
+    <input type="text" name="username" id="username">
+    <button>submit</button>
+</form> -->
+<!-- <h1 class="animate__animated animate__slideInRight">An animated element</h1> -->
+    <!-- starting naming convention  section -->
+    <!-- <p class="testParagraph">this is p camel Case  testParagraph</p>
+     <p class="test_paragraph">this is p snake case test_paragraph</p>
+     <p class="test-paragraph-test">this is p Kabab Case test-paragraph-test</p>
+     <p class="TestParagraphTest">this is p pascal case TestParagraphTest</p>
+     <p class="TEST_PARAGRAPH">this is p upper snake case TEST_PARAGRAPH</p> -->
+    <!-- end naming convention  section -->
+
+    <!-- starting backgrounds [images - color] section -->
+    <!-- <div class="banner-section">
+        <p>welcome to css</p>
+        <p>welcome to css</p>
+        <p>welcome to css</p>
+        <p>welcome to css</p> 
+        <p>welcome to css</p>
+    </div> -->
+    <!-- end  backgrounds [images - color] section -->
+
+    <!-- starting  padding & margins  section -->
+    <!-- 
+    <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+        padding of 80px.</div> 
+     <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+            padding of 80px.</div>  -->
+
+    <!-- end  padding & margins  section -->
+
+
+    <!-- starting  borders & outlines section -->
+    <!-- <div class="our-story">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left
+        padding of 80px.</div>  -->
+    <!-- end   borders & outlines section -->
+
+
+    <!-- starting  display section -->
+    <!-- <div class="test-sec">this first Div</div>
+    <div class="test-sec">this second Div</div>
+    <div class="test-sec-three">this third Div</div>
+    <div class="test-sec">this third Div</div> -->
+    <!-- 
+    <span class="test-span">this first span</span>
+    <span class="test-span">this second span</span>
+    <span class="test-span">this third span</span> -->
+
+    <!-- end  display section -->
+
+
+    <!-- starting  visibility section -->
+    <!-- <div class="visibility-sec">First</div> -->
+    <!-- end visibility  section -->
+
+    <!-- starting  multi selectors section -->
+    <!-- <div class="sec-one">One</div>
+    <div id="parent" class="sec-one ">
+        <div class="different-font">
+            <div class="child-three">
+                <div class="child-four">two</div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-one">Three</div> -->
+    <!-- end   multi selectors section -->
+
+    <!-- starting  nesting  section -->
+    <!-- <div class="nesting-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+    </div> -->
+    <!-- end  nesting section -->
+
+    <!-- starting width and dimensions section -->
+    <!-- <div class="dimension-sec">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end   section -->
+
+    <!-- starting overflow  section -->
+    <!-- <div class="overflow-sec">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end overflow  section -->
+
+    <!-- starting  shadow section -->
+    <!-- <div class="shadow-sec  color-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore sit molestiae, corrupti at quae debitis dicta
+        adipisci unde, nemo, veritatis error. Cupiditate,
+        deserunt maiores assumenda ut quod voluptate adipisci repellat.
+    </div> -->
+    <!-- end shadow  section -->
+
+    <!-- starting  text spaces section -->
+    <!-- <div class="text-spaces-sec">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Inventore sit molestiae, corrupti at quae debitis dicta
+            adipisci unde, nemo, veritatis error. Cupiditate,
+            deserunt maiores assumenda ut quod voluptate adipisci repellat.
+        </div> -->
+    <!-- end text spaces  section -->
+
+    <!-- starting inheritance-sec section -->
+    <!-- <div class="inheritance-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <span>span Inside Div</span>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+    </div> -->
+    <!-- end inheritance-sec section -->
+
+    <!-- <div class="typographic-sec">
+        <h2>Title</h2>
+        <p>Paragraph Inside Div</p>
+        <p class="special">Paragraph Inside Div With Class</p>
+        <a href="#">contact-me</a>
+    </div> -->
+
+    <!-- ---------------------------------------------------------------------->
+
+    <!-- starting  floating & clear section -->
+
+    <!-- <div class="blogs">
+        <div class="article">
+            services
+            <ul>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">service</a></li>
+            </ul>
+        </div>
+        <div class="article">
+            article 2
+        </div>
+        <div class="article">
+            article 3
+        </div>
+        <div class="article">
+            article 4
+        </div>
+        <div class="clear"></div>
+    </div> -->
+
+    <!--  <p>testing paragrapth</p> -->
+
+    <!-- end   floating & clear section -->
+
+    <!-- starting  position section -->
+
+    <!-- static & relative -->
+    <!-- <div class="element-one">
+        product 1
+    </div>
+    <div class="element-two">
+        product 2
+    </div> -->
+    <!-- <div class="first-parent">
+
+    </div> -->
+    <!-- absolute  -->
+    <!-- <div class="main-wrapper 1"> 
+        <div class="parent-sec  2">
+            <div class="product-one 3">
+                product 1
+            </div>
+        </div>
+    </div> -->
+
+    <!-- fixed -->
+    <!-- <div class="element-fixed">
+        product 1
+    </div> -->
+
+    <!-- sticky -->
+    <!-- <div class="banner-sec">
+       <img src="./assets/images/GettyImages-1264981227_2x.webp" alt="">
+    </div>
+    <div class="element-sticky">
+       Home
+    </div>
+    <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p>
+     <p>
+        lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Laudantium accusantium ipsa veniam officiis
+      blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+      temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+     </p> -->
+    <!-- end  position section -->
+
+    <!-- starting  z-index section -->
+    <!-- <div class="section-one">One</div>
+    <div class="section-two">Two</div> -->
+    <!-- <div class="section-three">three</div>  -->
+    <!-- <div class="section-three"><img src="./assets/images/icons/icon@2x.jpg" alt=""></div> -->
+    <!-- end    z-index  section -->
+
+    <!-- starting  opacity section -->
+    <!-- <div class="sec-opacity">One</div>
+    <div class="sec-opacity-two">Two</div> -->
+    <!-- end    opacity  section -->
+
+    <!-- starting Pseudo Classes section -->
+    <!-- <a href="https://www.facebook.com/" class="menu-url">click Me</a>
+    <br />
+    <br />
+    <input type="checkbox" name="accept-terms" class="accept-terms">
+    <label for="accept-terms">Accept Terms</label>
+    <br />
+    <br />
+    <p class="empty-paragraph"></p>
+    <div class="empty-paragraph"></div>
+    <br />
+    <br />
+    <label for="user-name">user name</label>
+    <input type="text" class="user-name" placeholder="user name">
+    <br />
+    <br />
+    <button class="disabled-btn" disabled>Submit</button>
+    <div></div> -->
+    <!-- end Pseudo Classes  section -->
+
+
+    <!-- starting Pseudo elements section -->
+    <!-- <div class="about-us">
+        Hello Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div>
+    <hr />
+    <div class="more-info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div>  -->
+    <!-- end Pseudo elements section -->
+
+    <!-- starting Pseudo elements before&after&content section -->
+    <!-- <div class="element-info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Laudantium accusantium ipsa veniam officiis
+        blanditiis numquam rerum! Eligendi perspiciatis atque ut adipisci quam,
+        temporibus eveniet nisi assumendaconsequatur, maiores ad veritatis.
+    </div> -->
+    <!-- end Pseudo elements before&after&content section -->
+
+    <!-- starting  Lists Styling  section -->
+     <!-- <ul>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+     </ul> -->
+    <!-- <div class="site-header">
+        <div class="site-logo"><img src="./assets/images/logo.png" alt=""></div>
+        <ul class="lists-style">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div> -->
+    <!-- end  Lists Styling section -->
+
+    <!-- starting  table styling section -->
+     <!-- <table class="section-table">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>test@mail.com</td>
+                <td>01234567890</td>
+            </tr>
+        </tbody>
+    </table>  -->
+    <!-- end  table styling section -->
+
+    <!-- starting  css units section -->
+    <!-- <div class="units-sec">
+        <div class="child-one">child one of paragraphs <span>this is span inside</span></div>
+    </div> -->
+    <!-- end  css units section -->
+
+    <!-- starting  css units section -->
+    <!-- <div class="variables-sec">
+        <div class="child-one">child one</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eos ea, dolorum dolore illo perferendis
+            cupiditate totam cumque aspernatur ipsum temporibus natus optio quisquam ab fugit quo suscipit fugiat?
+            Nostrum.
+        </p>
+        <div class="child-two">
+            child two <span>this is span</span>
+        </div>
+    </div> -->
+    <!-- end  css units section -->
+
+    <!-- start  filters section -->
+    <!-- <div class="filters-sec">
+        <img src="./assets/images/GettyImages-1264981227@2x.jpg" alt="">
+    </div> -->
+    <!-- end  filters section section -->
+
+    <!-- start  filters section -->
+    <div class="gradient-sec">
+         
+    </div>
+    <!-- end  filters section section -->
+
+
+    <!-- starting  box-modal section -->
+    <!-- <div class="parent-box">
+        <div class="child-one">child one</div>
+        <div class="child-two">child two</div>
+    </div> -->
+    <!-- end  box-modal section -->
+
+    <!-- starting flex-box  section -->
+    <!-- <div class="flex-parent">
+        <div class="flex-child one">1</div>
+        <div class="flex-child two">2</div>
+        <div class="flex-child three">3</div>
+        <div class="flex-child four">4</div>
+        <div class="flex-child">5</div>
+        <div class="flex-child">6</div>
+        <div class="flex-child">7</div>
+        <div class="flex-child">8</div>
+    </div> -->
+    <!-- end  flex-box section -->
+
+    <!-- starting  grid section -->
+    <!-- <div class="grid-parent">
+        <div class="grid-child one">1</div>
+        <div class="grid-child two">2</div>
+        <div class="grid-child three">3</div>
+        <div class="grid-child four">4</div>
+        <div class="grid-child five">5</div>
+        <div class="grid-child six">6</div>
+        <div class="grid-child seven">7</div>
+        <div class="grid-child eigh">8</div>
+        <div class="grid-child nine">9</div>
+        <div class="grid-child ten">10</div>
+        <div class="grid-child eleven">11</div>
+        <div class="grid-child twilve">12</div>
+    </div> -->
+
+    <!-- <div class="main-wrapper">
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">conatct us</a></li>
+            </ul>
+        </nav>
+        <section class="content">Content</section>
+        <aside class="article">aside</aside>
+        <footer class="footer">footer</footer>
+    </div>  -->
+
+    <!-- <div class="grid-sec">
+        <div class="one">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div class="sec-nine">9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+    </div> -->
+
+    <!-- <div class="grid-responsive">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div> -->
+    <!-- end grid  section -->
+
+    <!-- starting  css selectors  section -->
+ 
+        <!-- <div class="parent-div">
+            <h2 id="heading">hello</h2>
+            <p class="sub-head  "><span class="colorized">ppppp</span></p>
+            <span title="test">test two</span>
+            <div>test div</div>
+            <p class="testing-parg">tavvvvvrget paragraphs</p>
+            <span title="test">test two</span>
+            <div>test div</div>
+            <p class="testing-parg">target yyyyyyyyparagraphs two</p>
+            <div class="testing-parg">target yyyyyyyyparagraphs two</div>
+
+            <div title="sec">test div 1</div>
+            <div title="secDiv">test div 2</div>
+            <div title="sec two">test div 3</div>
+
+            <label for="">test username</label>
+            <input type="text" name="username" id="user" value="username">
+
+            <div>
+                <p>testing color</p>
+            </div>
+        </div> -->
+
+    <!-- <div class="parent-selector">
+            <p>test one </p>
+            <p>test one </p>
+            <p>test one </p>
+            <p>test one </p>
+            <div>
+                <p>sub test</p>
+            </div>
+            <div>
+                <div>sub test</div>
+                <p>sub test</p>
+            </div>
+            <p>test one </p>
+            <p>test one </p>
+        </div> -->
+
+    <!-- <div class="parent-selector-two">
+            <p>test one </p>
+            <p>test one </p>
+            <p>test one </p>
+            <p>test one </p>
+        </div> -->
+    <!-- end   css selectors section -->
+
+
+    <!-- starting  media-query section -->
+    <!-- <div class="media-parent">
+        <div class="media-child one">1</div>
+        <div class="media-child two">2</div>
+        <div class="media-child three">3</div>
+    </div> -->
+
+<!-- 
+    <div id="top"></div>
+    <a href="#top" id="scroll-to-top">Go to Top</a>
+
+
+    <div id="content">
+        <h1>Printable Content</h1>
+        <p>This content will be styled specifically for printing.</p>
+        <p>Links will show their URLs in print.</p>
+        <a href="https://www.example.com">test here </a>
+    </div> -->
+    <!-- end  media-query section -->
+
+    <!-- starting  Transition  section -->
+    <!-- <div class="transition-sec">
+            hello 
+        </div> -->
+    <!-- end Transition  section -->
+
+    <!-- starting  2D transform  section -->
+    <!-- <div class="transform-sec-two-d">
+            transform 2d
+        </div> -->
+
+        <!-- <div class="main-blog-box">
+            <div class="transform-blog-box">
+                <img src="./assets/images/portfolio-1.png" alt="blog">
+            </div>
+        </div> -->
+    <!-- <div class="transform-origin-box">
+            <span class="my-axis"></span>
+        </div> -->
+    <!-- end 2D transform  section -->
+
+    <!-- starting 3D transform  section -->
+    <!-- <div class="transform-box-three-d">
+       
+        </div> -->
+
+    <!-- <div class="transform-box-three-d-perspective">
+            <div>3D transform </div>
+        </div> -->
+
+    <!-- <div class="all-products">
+        <div class="product">
+            <div class="face front">Front</div>
+            <div class="face back">Back</div>
+        </div>
+    </div> -->
+    <!-- end  3D transform section -->
+
+    <!-- starting  animations section -->
+    <!-- <div  class="animated-sec">Animation</div> -->
+    <!-- <div class="loader-ex"> </div> -->
+    <!-- <div class="animation-pros"></div> -->
+    <!-- end  animations section -->
+
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+    <!-- starting   section -->
+
+    <!-- end   section -->
+
+
+
+</body>
+
+</html>
