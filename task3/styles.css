@@ -17,12 +17,12 @@ body {
 .service-item {
     background: #8a2be2;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 20px;
     padding: 30px;
     width: 250px;
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
@@ -38,12 +38,12 @@ body {
 }
 
 .service-content h3 {
-    font-size: 1.5em;
+    font-size: 16px;
     margin: 0 0 10px 0;
 }
 
 .service-content p {
-    font-size: 1em;
+    font-size: 10;
     margin: 0;
 }
 
@@ -51,18 +51,6 @@ body {
     position: absolute;
     top: 15px;
     right: 15px;
-    font-size: 3em;
+    font-size: 50px;
     color: rgba(255, 255, 255, 0.1);
-}
-
-@media (max-width: 768px) {
-    .service-item {
-        flex: 1 1 calc(50% - 40px);
-    }
-}
-
-@media (max-width: 480px) {
-    .service-item {
-        flex: 1 1 calc(100% - 40px);
-    }
 }
