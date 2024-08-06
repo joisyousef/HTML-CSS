@@ -67,25 +67,22 @@ $(document).ready(function () {
   //         width: '150px'
   //     });
   //   });
-//   $("button").click(function () {
-//     $("div").animate({ height: "300px", opacity: "0.4" }, "slow");
-//     $("div").animate({ width: "300px", opacity: "0.8" }, "slow");
-//     $("div").animate({ height: "100px", opacity: "0.4" }, "slow");
-//     $("div").animate({ width: "100px", opacity: "0.8" }, "slow");
-//   });
+  //   $("button").click(function () {
+  //     $("div").animate({ height: "300px", opacity: "0.4" }, "slow");
+  //     $("div").animate({ width: "300px", opacity: "0.8" }, "slow");
+  //     $("div").animate({ height: "100px", opacity: "0.4" }, "slow");
+  //     $("div").animate({ width: "100px", opacity: "0.8" }, "slow");
+  //   });
 
+  // $("button").click(function(){
+  //     $("p").hide("slow", function(){
+  //       alert("The paragraph is now hidden");
+  //     });
+  //   });
 
-
-// $("button").click(function(){
-//     $("p").hide("slow", function(){
-//       alert("The paragraph is now hidden");
-//     });
-//   });
-
-// $("button").click(function(){
-//     $(".text-for-test").css("color", "red").slideUp(2000).slideDown(2000);
-//   });
-
+  // $("button").click(function(){
+  //     $(".text-for-test").css("color", "red").slideUp(2000).slideDown(2000);
+  //   });
 
   // $("#flip").click(function(){
   //     $("#panel").slideDown(5000);
@@ -103,82 +100,73 @@ $(document).ready(function () {
 
   // $("p").css("color", "red").slideUp(2000).slideDown(2000);
 
-    // $("#btn1").click(function () {
-    //   alert($("p").text());
-    // });
-    // $("#btn2").click(function () {
-    //   alert($("p").html());
-    // });
+  // $("#btn1").click(function () {
+  //   alert($("p").text());
+  // });
+  // $("#btn2").click(function () {
+  //   alert($("p").html());
+  // });
 
-//   $("button").click(function(){
-//       alert($("input").val());
-//     });
+  //   $("button").click(function(){
+  //       alert($("input").val());
+  //     });
 
-    // $("#btn1").click(function () {
-    //   $("#test1").text("Hello world!");
-    // });
-    // $("#btn2").click(function () {
-    //   $("#test2").html("<i class='italicFont'>Hello world!</i>");
-    // });
-    // $("#btn3").click(function () {
-    //   $("#test3").val("Dolly Duck");
-    // });
+  // $("#btn1").click(function () {
+  //   $("#test1").text("Hello world!");
+  // });
+  // $("#btn2").click(function () {
+  //   $("#test2").html("<i class='italicFont'>Hello world!</i>");
+  // });
+  // $("#btn3").click(function () {
+  //   $("#test3").val("Dolly Duck");
+  // });
 
-//   $("button").click(function () {
-//     $("p,div,.text").hide(1000);
-//   });
+  //   $("button").click(function () {
+  //     $("p,div,.text").hide(1000);
+  //   });
 
+  // $("#btn1").click(function(){
+  //     $("p").append(" <b>Appended text</b>.");
+  //   });
 
-// $("#btn1").click(function(){
-//     $("p").append(" <b>Appended text</b>.");
-//   });
+  //   $("#btn2").click(function(){
+  //     $("ol").append("<li>Appended item</li>");
+  //   });
 
-//   $("#btn2").click(function(){
-//     $("ol").append("<li>Appended item</li>");
-//   });
+  // $("#btn1").click(function(){
+  //     $("p").prepend(" <b>Appended text</b>.");
+  //   });
 
-
-
-
-
-// $("#btn1").click(function(){
-//     $("p").prepend(" <b>Appended text</b>.");
-//   });
-
-//   $("#btn2").click(function(){
-//     $("ol").prepend("<li>Appended item</li>");
-//   });
-
-
+  //   $("#btn2").click(function(){
+  //     $("ol").prepend("<li>Appended item</li>");
+  //   });
 
   // $("button, div").click(function () {
   //     $("p").hide(1000);
   //   });
 
-//   $("button").click(function(){
-//       $("h1, h2, p").addClass("blue");
-//       $("div").addClass("another-test");
-//     });
+  //   $("button").click(function(){
+  //       $("h1, h2, p").addClass("blue");
+  //       $("div").addClass("another-test");
+  //     });
 
+  //     $("p").css("background-color", "yellow");
 
-//     $("p").css("background-color", "yellow");
+  // $("span").parentsUntil('ul').css({"color": "red", "border": "2px solid red"});
 
+  // $("div").children().css({"color": "red", "border": "2px solid red"});
 
-// $("span").parentsUntil('ul').css({"color": "red", "border": "2px solid red"});
+  // $("div").find("span").css({"color": "red", "border": "2px solid red"});
 
-// $("div").children().css({"color": "red", "border": "2px solid red"});
+  // $("h2").siblings().css({"color": "red", "border": "2px solid red"});
 
-// $("div").find("span").css({"color": "red", "border": "2px solid red"});
-
-// $("h2").siblings().css({"color": "red", "border": "2px solid red"});
-
-// $("div").first().css("background-color", "yellow");
+  // $("div").first().css("background-color", "yellow");
 
   // $("button").click(function(){
   //     $("h1, h2, p, div").addClass("important blue");
   //   });
 
-  $( "#test-sorting-sec" ).sortable();
+  $("#test-sorting-sec").sortable();
 
   // $( "#accordion" ).accordion();
 
@@ -206,21 +194,20 @@ $(document).ready(function () {
   //     }
   // })
 
-
-//   $('.owl-carousel').owlCarousel({
-//     items:5,
-//     loop:true,
-//     margin:10,
-//     autoplay:true,
-//     autoplayTimeout:1000,
-//     autoplayHoverPause:true,
-//     responsive:{
-//         678:{
-//             mergeFit:true
-//         },
-//         1000:{
-//             mergeFit:false
-//         }
-//     }
-// });
+  //   $('.owl-carousel').owlCarousel({
+  //     items:5,
+  //     loop:true,
+  //     margin:10,
+  //     autoplay:true,
+  //     autoplayTimeout:1000,
+  //     autoplayHoverPause:true,
+  //     responsive:{
+  //         678:{
+  //             mergeFit:true
+  //         },
+  //         1000:{
+  //             mergeFit:false
+  //         }
+  //     }
+  // });
 });

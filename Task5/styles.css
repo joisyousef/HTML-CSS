@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.classes {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.classes h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inner-container {
+  display: flex;
+  /* overflow: hidden; */
+  width: 60%;
+}
+
+.class-item {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.class-content {
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.class-content img {
+  width: 100%;
+  height: auto;
+}
+
+.class-info {
+  padding: 20px;
+}
+
+.class-time {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: relative;
+}
+
+.class-info h3 {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.class-info p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.class-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.carousel-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 50%;
+  pointer-events: all;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
