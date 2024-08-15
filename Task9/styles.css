@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.container h4 {
+  font-size: 15px;
+  color: red;
+}
+.container h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.inner-container {
+  /* align-items: center;
+  text-align: center; */
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.tracks {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  text-align: left;
+  /* border-style: groove; */
+  /* padding: 20px; */
+}
+.tracks h2 {
+  font-size: 20px;
+}
+.tracks img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  top: 10px; /* adjust the position as needed */
+  left: 20px; /* adjust the position as needed */
+  font-size: 18px;
+  color: #red;
+}
+.more-details {
+  color: #333;
+  text-decoration: none;
+}
+.track-info {
+  padding: 20px;
+}
+.fa-regular {
+  color: red;
+}
