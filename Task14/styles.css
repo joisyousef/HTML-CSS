@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.featured-properties {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  color: #ff3b57;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #002858;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.property-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.property-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 1;
+  max-width: 30%;
+  position: relative;
+}
+
+.property-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #ff3b57;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.badge.discount {
+  background-color: #00c4b4;
+}
+
+.property-details {
+  padding: 20px;
+  text-align: left;
+}
+
+.property-details p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.property-details h2 {
+  font-size: 18px;
+  color: #002858;
+  margin-bottom: 20px;
+}
+
+.property-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.property-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.property-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-price h3 {
+  color: #ff3b57;
+  font-size: 24px;
+  margin: 0;
+}
+
+.property-price h3 span {
+  font-size: 14px;
+  color: #555;
+}
+
+.property-price i {
+  color: #ff3b57;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.property-price i:hover {
+  color: #ff2a47;
+}
