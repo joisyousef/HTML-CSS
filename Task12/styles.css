@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+}
+.contact-section {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #fff;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 5px; */
+  overflow: hidden;
+  /* margin: auto; */
+}
+.left-side {
+  flex: 1.5;
+  padding: 40px;
+}
+.left-side h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.left-side h2 span {
+  color: #ff3b57;
+}
+.left-side p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.left-side h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.form input,
+.form textarea {
+  width: 48%;
+  /* display: inline-block; */
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+.form input {
+  width: 100%;
+}
+.form textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+}
+button {
+  background-color: #ff3b57;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: self-start;
+}
+button i {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #ff2a47;
+}
+.right-side {
+  flex: 1;
+  padding: 40px;
+  /* background-color: #f8f9fa; */
+  border-left: none;
+}
+.info-box {
+  margin-bottom: 30px;
+}
+.info-box h4 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.info-box p {
+  color: #555;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.info-box i {
+  color: #ff3b57;
+  margin-right: 10px;
+  background-color: #eee;
+  border: 15px solid #eee;
+  border-radius: 40px;
+}
+.social-icons a i {
+  font-size: 14px;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
